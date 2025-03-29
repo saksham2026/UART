@@ -9,7 +9,7 @@ module uart_rx
         output reg rx_done_tick,
         output wire [7:0] dout
     );
-
+    
     // symbolic state declaration
     localparam [1:0]
     idle = 2'b00,
